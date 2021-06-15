@@ -1,0 +1,29 @@
+body {
+    background: orange;
+  }
+  
+  .container {
+    margin-top: 10px;
+  }
+  
+  .header {
+    background: grey;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .body {
+    height: 0;
+    display: none;
+  
+  }
+  
+  .show {
+    height: auto;
+    display: flex;
+  }
+  
